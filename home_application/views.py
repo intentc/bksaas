@@ -23,3 +23,9 @@ def contact(request):
     联系页
     """
     return render(request, 'home_application/contact.html')
+
+def hellosaas(request):
+    """
+    hello saas page
+    """
+    return render(request, 'home_application/hellosaas.html')
